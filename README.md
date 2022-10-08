@@ -1,6 +1,6 @@
 # 2022 BIG DATA HACKATHON PROPOSAL FORM
 
-Eagles
+Team Name: Eagles
 
 Team Number: 203
 
