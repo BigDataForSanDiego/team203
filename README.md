@@ -1,7 +1,6 @@
 # Eagles
 # 2022 BIG DATA HACKATHON PROPOSAL FORM
 # Team Number: 203
-# Your team’s hackathon idea in One sentence: 
 
 Connecting recently discharged veteras to careplans based resources such as hospital locations and appointment availiability.
 
