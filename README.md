@@ -4,7 +4,7 @@ Team Name: Eagles
 
 Team Number: 203
 
-Connecting recently discharged veteras to careplans based resources such as hospital locations and appointment availiability.
+Continuously checking in on veterans using datasets from trusted 3rd parties. 
 
 ![image](https://user-images.githubusercontent.com/80232002/194731331-1255ee47-adb2-44cb-bc71-06c7525406af.png)
 
