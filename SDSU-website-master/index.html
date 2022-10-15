@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDSU Website</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel = "stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    
+
+</head>
+<body>
+<section class = "header">
+    <nav>
+
+        <a href = "index.html"><img src="imgs/logo.png"height = 100px></a>
+
+        <div class = "nav-links" id = "navLinks">
+            <i class="fa fa-times" onclick = "hideMenu()"></i>
+            <ul>
+                <li><a href = "">HOME</a></li>
+                <li><a href = "">ABOUT</a></li>
+                <li><a href = "">RESOURCES</a></li>
+                <li><a href = "">BLOG</a></li>
+                <li><a href = "">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick = "showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>Helping Veterans One Family At A Time.</h1>
+    <p>
+        Finding healthcare these days for a veteran is hard, expensive, time consuming, and tedious. 
+        We are here to change that.
+    </p>
+    <a href="" class = "hero-btn">Visit Us To Know More</a>
+</div>
+    
+</section>
+            <!-- Course(resources) -->
+<section class = "course">
+    <h1>Resources We Offer</h1>
+    <p>We'll help you find the right place in our care.</p>
+    <div class = "row">
+        <div.course class = "course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+        </div.course>
+        <div.course class = "course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+        </div.course>
+        <div.course class = "course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+        </div.course>
+    </div>
+</section>
+
+<!-- campus -->
+
+<section class="campus">
+    <h1>Our Global campus</h1>
+    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src = "imgs/london.png">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src = "imgs/newyork.png">
+            <div class="layer">
+                <h3>New York</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src = "imgs/washington.png">
+            <div class="layer">
+                <h3>Washington</h3>
+            </div>
+        </div>
+    </div>
+    
+</section>
+    
+            <!-- Facilities -->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+
+    <div class="row">
+        <div class = "facilities-col">
+                <img src = "imgs/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+        </div>
+                <div class = "facilities-col">
+                <img src = "imgs/basketball.png">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+        </div>
+                <div class = "facilities-col">
+                <img src = "imgs/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</section>
+
+        <!-- testimonials -->
+<section class = "testimonials">
+    <h1>What Our Customers Say</h1>
+    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="imgs/user1.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                <h3>Christopher P Coleman</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+
+                
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="imgs/user2.jpg">
+            <div>
+                <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                <h3>Anthony Estrella</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Call To Action -->
+<section class="cta">
+    <h1>Enroll For Our Various Online Courses<br> From The World</h1>
+    <a href="" class = "hero-btn">CONTACT US</a>
+</section>
+
+        <!-- JavaScript for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function showMenu(){
+        navLinks.style.right = "-200";
+    }
+</script>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p> 
+    <div class = "icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class = "fa fa-heart-o"></i> by Gian Paraguya</p>
+</section>
+
+</body>
+</html>
